@@ -45,7 +45,7 @@ p.colorfullText {
 body, html {
   height: 100%;
   font-family: 'Poppins';
-  background-color: #000;
+  background-color: #111111;
 }
 
 /*---------------------------------------------*/
@@ -79,7 +79,7 @@ p {
   font-family: 'Poppins';
   font-size: 14px;
   line-height: 1.7;
-  color: #666666;
+  color: #7c7c7c;
   margin: 0px;
 }
 
@@ -281,17 +281,26 @@ iframe {
 }
 
 .colorfullPanel{
-  background-color: #333333;
+  background-color: #33333300;
   color: #fff;
   transition: background-color 0.5s ease;
 }
 
 .colorfullPanel h3{
+  color: rgb(248, 176, 0);
+  /* text-shadow: rgb(255, 239, 185) 1px 3px 30px; */
   margin-top: 40px;
   margin-bottom: 15px;
   font-size: 24px;
   font-family: 'Righteous';
   position: relative;
+}
+
+
+
+.priceTag {
+  color: rgb(255, 255, 255);
+  text-align: right;
 }
 
 .colorfullPanel h2{
@@ -314,10 +323,10 @@ iframe {
   position: relative;
 
 }
-
+/* 
 .colorfullPanel:hover {
   background-color: #000;
-}
+} */
 
 
 /*
@@ -599,10 +608,10 @@ div#news-slider .owl-next {
 */
 
 .navbar.active {
-  background: #333333;
+  background: #111111;
   border-radius: 0px;
   padding-bottom: 10px;
-  box-shadow: 0 10px 15px rgba(25,25,25,0.1);
+  box-shadow: 0 10px 15px rgba(129, 0, 0, 0.1);
 }
 
 #navbarResponsive{
