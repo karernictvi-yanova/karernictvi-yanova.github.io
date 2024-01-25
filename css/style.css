@@ -611,7 +611,7 @@ div#news-slider .owl-next {
   background: #111111;
   border-radius: 0px;
   padding-bottom: 10px;
-  box-shadow: 0 10px 15px rgba(129, 0, 0, 0.1);
+  box-shadow: 0 10px 15px rgba(51, 51, 51, 0.1);
 }
 
 #navbarResponsive{
