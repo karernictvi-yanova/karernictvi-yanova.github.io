@@ -1544,6 +1544,48 @@ li.address-section .fa{
 }
 
 
+.aboutUs p {
+  padding: 25px;
+  color: rgb(248, 176, 0);
+  font-size: 25px;
+}
+
+@media (min-width: 767px){
+
+  .aboutUs .row {
+    display: flex;
+    align-items: center;
+  }
+
+}
+@media (max-width: 767px){
+
+  .aboutUs {
+    text-align: center;
+  }
+  .aboutUs p {
+    text-align: center;
+  }
+
+}
+
+.aboutUs .row:nth-child(odd){
+  background-color: #202020;
+  text-align: right;
+}
+.aboutUs .row:nth-child(even){
+  text-align: left;
+}
+
+.aboutUs img {
+  padding: 25px;
+  width: 100%;
+}
+
+.aboutUs p b{
+  font-weight: 600;
+}
+
 
 .single-widget li.address-section .fa {
   display: inline-block;
