@@ -161,23 +161,12 @@ iframe {
 }
 
 
-.owl-item.active .slide-content h2, 
-.owl-item.active .slide-content h3, 
-.owl-item.active .slide-content p
-{
-  visibility: visible;
-  animation-duration: 2s;
-  animation-iteration-count: 1;
-  animation-name: fadeInUp;
-}
-
 
 
 .slide-content h2{
     font-family: 'Righteous';
     margin-bottom: 20px;
     font-size: 52px;
-    visibility: hidden;
 
 }
 
@@ -961,48 +950,6 @@ div#news-slider .owl-next {
 * ==========================================
 */
 
-/*
-* ==========================================
-* OWL CAROUSEL GENERAL STYLES START
-* ==========================================
-*/
-
-.owl-theme .owl-controls{
-    margin-top: 30px;
-}
-.owl-theme .owl-controls .owl-page span{
-    background: #fff;
-    border: 2px solid #37a6a4;
-}
-.owl-theme .owl-controls .owl-page.active span,
-.owl-theme .owl-controls.clickable .owl-page:hover span{
-    background: #37a6a4;
-}
-
-.owl-prev{
-  position: absolute;
-  bottom: 100px;
-  left: 40%;
-  text-transform: uppercase;
-  color: #ffffff70;
-}
-
-.owl-next{
-  position: absolute;
-  bottom: 100px;
-  right: 40%;
-  text-transform: uppercase;
-  color: #ffffff70;
-}
-
-.owl-height{
-  min-height: 150px;
-}
-/*
-* ==========================================
-* OWL CAROUSEL GENERAL STYLES END
-* ==========================================
-*/
 
 /*
 * ==========================================
@@ -1178,8 +1125,6 @@ div#news-slider .owl-next {
     width: 100%;
   }
   
-  
-
   .container-contact100-form-btn {
     width: 100%;
     display: -webkit-box;
@@ -1625,6 +1570,68 @@ align-items: center;
 * ADRESS SECTION ENDS
 * ==========================================
 */
+
+
+/*
+* ==========================================
+* GALLERY SECTION START
+* ==========================================
+*/
+
+
+
+/*
+* ==========================================
+* OWL CAROUSEL GENERAL STYLES START
+* ==========================================
+*/
+
+
+.owl-prev{
+position: absolute;
+bottom: -30px;
+left: 40%;
+text-transform: uppercase;
+color: #ffffff70;
+}
+
+.owl-next{
+position: absolute;
+bottom: -30px;
+right: 40%;
+text-transform: uppercase;
+color: #ffffff70;
+}
+
+.owl-height{
+min-height: 150px;
+}
+/*
+* ==========================================
+* OWL CAROUSEL GENERAL STYLES END
+* ==========================================
+*/
+
+
+.owl-item{
+opacity: .1;
+  transition: 0.3s ;
+}
+
+.owl-item.active.center {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+/*
+* ==========================================
+* GALLERY SECTION ENDS
+* ==========================================
+*/
+
+
+
+
 
 /*
 * ==========================================

@@ -1,13 +1,83 @@
 (function($) {
     "use strict"; // Start of use strict
 
-    $('.news-slider').owlCarousel({
+//     $('.news-slider').owlCarousel({
+//         loop:true,
+//         margin:10,
+//         nav:true,
+//         autoHeight:true,
+//         autoHeightClass: 'owl-height',
+//         pagination: true,
+//         responsive:{
+//             0:{
+//                 items:1
+//             },
+//             600:{
+//                 items:2
+//             },
+//             1000:{
+//                 items:3
+//             }
+//         }
+//     })
+
+//     $('.testimonial-area').owlCarousel({
+//         loop:true,
+//         margin:10,
+//         nav:true,
+//         dots: false,
+//         autoHeight:true,
+//         pagination: true,
+//         navText : ["<img src='./img/slider/rightarrow.png' />","<img src='./img/slider/leftarrow.png' />"],
+//         responsive:{
+//             0:{
+//                 items:1
+//             },
+//             600:{
+//                 items:1
+//             },
+//             1000:{
+//                 items:1
+//             }
+//         }
+//     })
+
+    
+//     $('.main-slider').owlCarousel({
+//         loop:true,
+//         margin:0,
+//         nav:true,
+//         dots: false,
+//         pagination: true,
+//         autoHeight: false,
+// //        autoHeightClass: 'owl-height',
+//         navText : ["<img src='./img/slider/rightarrow.png' />","<img src='./img/slider/leftarrow.png' />"],
+//         responsive:{
+//             0:{
+//                 items:1
+//             },
+//             600:{
+//                 items:1
+//             },
+//             1000:{
+//                 items:1
+//             }
+//         }
+//     })
+
+
+$(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
         loop:true,
         margin:10,
-        nav:true,
-        autoHeight:true,
-        autoHeightClass: 'owl-height',
+        items: 2,
+        center: true,
+        autoplay: true,
+        nav: true,
+        dots: false,
         pagination: true,
+        autoHeight: false,
+        navText: ["<img src='./img/slider/rightarrow.png' />", "<img src='./img/slider/leftarrow.png' />"],
         responsive:{
             0:{
                 items:1
@@ -16,54 +86,14 @@
                 items:2
             },
             1000:{
-                items:3
+                items:2
             }
         }
     })
+  });
 
-    $('.testimonial-area').owlCarousel({
-        loop:true,
-        margin:10,
-        nav:true,
-        dots: false,
-        autoHeight:true,
-        pagination: true,
-        navText : ["<img src='./img/slider/rightarrow.png' />","<img src='./img/slider/leftarrow.png' />"],
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:1
-            },
-            1000:{
-                items:1
-            }
-        }
-    })
 
-    
-    $('.main-slider').owlCarousel({
-        loop:true,
-        margin:0,
-        nav:true,
-        dots: false,
-        pagination: true,
-        autoHeight: false,
-//        autoHeightClass: 'owl-height',
-        navText : ["<img src='./img/slider/rightarrow.png' />","<img src='./img/slider/leftarrow.png' />"],
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:1
-            },
-            1000:{
-                items:1
-            }
-        }
-    })
+
 
     $(window).on('scroll', function () {
         if ( $(window).scrollTop() > 10 ) {
