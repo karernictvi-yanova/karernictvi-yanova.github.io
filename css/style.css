@@ -1,19 +1,41 @@
-/*
-Theme Name: Cemre Bakery Theme
-Theme URI: https://bakery.cemreworks.com
-Author: Cemre Tellioğlu Tunçay
-Author URI: https://cemreworks.com
-*/
-/*
-* ==========================================
-* GENERAL AND HEADER START
-* ==========================================
-*/
-
 :root {
   --main-color:#f9b000;
   --paragraph-color: #cccccc;
+  
 }
+
+
+/* fonts*/
+
+.thasadith-regular {
+  font-family: "Thasadith", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.thasadith-bold {
+  font-family: "Thasadith", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.thasadith-regular-italic {
+  font-family: "Thasadith", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.thasadith-bold-italic {
+  font-family: "Thasadith", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+
+/* Fonts*/
+
+
 
 
 
@@ -51,13 +73,16 @@ p.colorfulText {
 
 body, html {
   height: 100%;
-  font-family: 'Poppins';
-  background-color: #111111;
+
+  font-weight: 400;
+  font-family: "Thasadith", sans-serif;
+  
+  background-color: #2c2c2c;
 }
 
 /*---------------------------------------------*/
 a {
-  font-family: 'Poppins';
+  font-family: "Thasadith", sans-serif;
   font-size: 14px;
   line-height: 1.7;
   color: #666666;
@@ -83,7 +108,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-  font-family: 'Poppins';
+  font-family: "Thasadith", sans-serif;
   font-size: 14px;
   line-height: 1.7;
   color: var(--paragraph-color);
@@ -162,7 +187,7 @@ iframe {
 }
 
 .slide-content h3{
-    font-family: 'Roboto';
+    font-family: "Thasadith", sans-serif;
     margin-bottom: 20px;
     font-size: 22px;
     text-shadow: 0px 0px 11px gray;
@@ -172,11 +197,10 @@ iframe {
 
 
 .slide-content h2{
-    font-family: 'Righteous';
+    font-family: "Thasadith", sans-serif;
     margin-bottom: 20px;
     font-size: 52px;
     text-shadow: 0px 0px 11px gray;
-
 }
 
 
@@ -184,7 +208,7 @@ iframe {
     margin-bottom: 20px;
     margin-top: 20px;
     color: #ffffff70;
-    font-family: 'Roboto';
+    font-family: "Thasadith", sans-serif;
     font-size: 18px;
     visibility: hidden;
 
@@ -207,7 +231,7 @@ iframe {
 
 
 .slide-content .default-btn{
-  font-family: 'Roboto';
+  font-family: "Thasadith", sans-serif;
   font-size: 14px;
   line-height: 1.7;
   color: #666666;
@@ -253,7 +277,7 @@ iframe {
   margin-top: 40px;
   margin-bottom: 15px;
   font-size: 24px;
-  font-family: 'Righteous';
+  font-family: "Thasadith", sans-serif;
   position: relative;
 }
 
@@ -322,7 +346,7 @@ section#section2 .maintext span{
 
 section#section2 .maintext h2 {
   font-size: 70px;
-  font-family: 'Righteous';
+  font-family: "Thasadith", sans-serif;
   color: rgb(68, 68, 68);
   line-height: 1;
   text-align: center;
@@ -331,7 +355,7 @@ section#section2 .maintext h2 {
 }
 section#section2 .maintext p {
 
-  font-family: "Roboto";
+  font-family: "Thasadith", sans-serif;
   font-size: 14px;
   line-height: 1.7;
   color: #666666;
@@ -344,7 +368,7 @@ section#section2 .maintext p {
 
 section#section2 .shapes span{
   font-size: 18px;
-  font-family: "Roboto";
+  font-family: "Thasadith", sans-serif;
   color: rgb(51, 51, 51);
   line-height: 1.7;
   font-weight: bold;
@@ -353,7 +377,7 @@ section#section2 .shapes span{
 
 section#section2 .shapes p{
     font-size: 15px;
-    font-family: "Roboto";
+    font-family: "Thasadith", sans-serif;
     color: rgb(119, 119, 119);
     line-height: 1.4;
     text-align: center;
@@ -379,7 +403,7 @@ section#section2 .shapes p{
 .section-title h2 {
   margin-top: 30px;
   font-size: 70px;
-  font-family: 'Righteous';
+  font-family: "Thasadith", sans-serif;
   color: rgb(68, 68, 68);
   line-height: 1;
   text-align: center;
@@ -436,7 +460,7 @@ img.imgback:hover {
 
 .post-slide .post-title {
   font-size: 17px;
-  font-family: "Roboto";
+  font-family: "Thasadith", sans-serif;
   color: rgb(51, 51, 51);
   line-height: 1.7;
   text-align: center;
@@ -446,7 +470,7 @@ img.imgback:hover {
 
 .post-slide .post-description {
   font-size: 22px;
-  font-family: 'Righteous';
+  font-family: "Thasadith", sans-serif;
   color: rgb(252, 177, 0);
   line-height: 1.1;
   text-align: center;
@@ -463,7 +487,7 @@ div#news-slider .owl-prev {
   left: 40%;
   text-transform: uppercase;
   font-size: 12px;
-  font-family: "Roboto";
+  font-family: "Thasadith", sans-serif;
   color: rgb(204, 204, 204);
   line-height: 1.7;
   text-align: center;
@@ -481,7 +505,7 @@ div#news-slider .owl-next {
   right: 40%;
   text-transform: uppercase;
   font-size: 12px;
-  font-family: "Roboto";
+  font-family: "Thasadith", sans-serif;
   color: rgb(204, 204, 204);
   line-height: 1.7;
   text-align: center;
@@ -665,7 +689,7 @@ div#news-slider .owl-next {
 
 #section4  h2 {
   font-size: 70px;
-  font-family: 'Righteous';
+  font-family: "Thasadith", sans-serif;
   color: #ffffff;
   line-height: 1;
   text-align: center;
@@ -780,7 +804,7 @@ div#news-slider .owl-next {
 
 .content span {
   font-size: 15px;
-  font-family: "Roboto";
+  font-family: "Thasadith", sans-serif;
   color: rgb(119, 119, 119);
   line-height: 2.4;
   text-align: center;
@@ -790,7 +814,7 @@ div#news-slider .owl-next {
 
 .content h2 {
   font-size: 60px;
-  font-family: 'Righteous';
+  font-family: "Thasadith", sans-serif;
   color: rgb(68, 68, 68);
   line-height: 1;
   text-align: center;
@@ -798,7 +822,7 @@ div#news-slider .owl-next {
 
 .content h3 {
     font-size: 16px;
-    font-family: "Roboto";
+    font-family: "Thasadith", sans-serif;
     color: rgb(132, 171, 0);
     line-height: 1.7;
     text-align: center;  
@@ -827,7 +851,7 @@ div#news-slider .owl-next {
 
 .blog-section-title h3{
     font-size: 15px;
-    font-family: "Roboto";
+    font-family: "Thasadith", sans-serif;
     color: var(--main-color);;
     font-weight: bold;
     line-height: 1.7;
@@ -839,7 +863,7 @@ div#news-slider .owl-next {
 }
 .blog-section-title h2{
     font-size: 70px;
-    font-family: 'Righteous';
+    font-family: "Thasadith", sans-serif;
     color: rgb(68, 68, 68);
     line-height: 1;
     text-align: center;
@@ -852,7 +876,7 @@ div#news-slider .owl-next {
 
 .blog-section-date .month{
     font-size: 60px;
-    font-family: 'Righteous';
+    font-family: "Thasadith", sans-serif;
     color: rgb(221, 221, 221);
     line-height: 0.85;
 }
@@ -868,7 +892,7 @@ div#news-slider .owl-next {
 
 .blog-section-description h2{
     font-size: 22px;
-    font-family: "Roboto";
+    font-family: "Thasadith", sans-serif;
     color: rgb(51, 51, 51);
     line-height: 1.4;
     text-align: left;
@@ -878,7 +902,7 @@ div#news-slider .owl-next {
 
 .blog-section-description p{
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Thasadith", sans-serif;
   color: rgb(76, 76, 76);
   line-height: 1.4;
   text-align: left;
@@ -965,7 +989,7 @@ div#news-slider .owl-next {
   
   .contact100-form-title h3{
       font-size: 15px;
-      font-family: "Roboto";
+      font-family: "Thasadith", sans-serif;
       color: var(--main-color);;
       font-weight: bold;
       line-height: 1.7;
@@ -978,7 +1002,7 @@ div#news-slider .owl-next {
 
   .contact100-form-title h2{
       font-size: 70px;
-      font-family: 'Righteous';
+      font-family: "Thasadith", sans-serif;
       color: rgb(68, 68, 68);
       line-height: 1;
       text-align: center;  
@@ -999,7 +1023,7 @@ div#news-slider .owl-next {
   }
   
   .label-input100 {
-    font-family: "Roboto";
+    font-family: "Thasadith", sans-serif;
     font-size: 15px;
     color: #999999;
     line-height: 1.5;
@@ -1010,7 +1034,7 @@ div#news-slider .owl-next {
     display: block;
     width: 100%;
     background: transparent;
-    font-family: "Roboto";
+    font-family: "Thasadith", sans-serif;
     font-size: 18px;
     color: #555555;
     line-height: 1.2;
@@ -1091,7 +1115,7 @@ div#news-slider .owl-next {
     height: 50px;
     background-color: var(--main-color);;
     border-radius: 25px;
-    font-family: 'Poppins';
+    font-family: "Thasadith", sans-serif;
     font-size: 16px;
     color: #fff;
     line-height: 1.2;
@@ -1175,7 +1199,7 @@ div#news-slider .owl-next {
     right: 2px;
     pointer-events: none;
   
-    font-family: 'Poppins';
+    font-family: "Thasadith", sans-serif;
     color: #c80000;
     font-size: 13px;
     line-height: 1.4;
@@ -1222,7 +1246,7 @@ div#news-slider .owl-next {
 
   
   .contact100-more {
-    font-family: 'Poppins';
+    font-family: "Thasadith", sans-serif;
     font-size: 14px;
     color: #999999;
     line-height: 1.5;
@@ -1369,7 +1393,7 @@ div#news-slider .owl-next {
 
 .addess-description span{
   font-size: 15px;
-  font-family: "Roboto";
+  font-family: "Thasadith", sans-serif;
   color: var(--main-color);;
   font-weight: bold;
   line-height: 1.7;
@@ -1381,7 +1405,7 @@ div#news-slider .owl-next {
 }
 .addess-description h2{
   font-size: 30px;
-  font-family: 'Righteous';
+  font-family: "Thasadith", sans-serif;
   color: rgb(68, 68, 68);
   margin-bottom: 15px;
   color: rgb(255, 255, 255);
@@ -1393,7 +1417,7 @@ div#news-slider .owl-next {
 .addess-description p{
   font-size: 15px;
   line-height: 1.3;
-  font-family: 'Poppins';
+  font-weight: 700;
   color: var(--paragraph-color)
 }
 
@@ -1455,12 +1479,12 @@ li.address-section .fa{
 }
 
 .aboutUs .row:nth-child(odd){
-  background-color: #202020;
-  text-align: right;
-  border-radius: 50px;
+  background-color: #222120;
+  text-align: center;
+  border-radius: 15px;
 }
 .aboutUs .row:nth-child(even){
-  text-align: left;
+  text-align: center;
 }
 
 .aboutUs img {
@@ -1641,7 +1665,7 @@ opacity: .1;
 
 .single-widget h3{
     font-size: 18px;
-    font-family: "Roboto";
+    font-family: "Thasadith", sans-serif;
     color: rgb(51, 51, 51);
     line-height: 1.4;
     text-align: left;
@@ -1662,7 +1686,7 @@ opacity: .1;
 
 
 .single-widget-description {
-  font-family: 'Poppins';
+  font-family: "Thasadith", sans-serif;
   font-size: 14px;
   line-height: 1;
   color: #666666;
@@ -1759,12 +1783,13 @@ li.footer-section a:focus p{
 
 
 .headImage {
-  background-image: url(../img/slider/couch_opt_L.webp);
+  background-image: url(../img/slider/couch_opt_L.webp) ;
   width: 100%;
   height: 100vh;
   background-position-y: -300px;
   background-repeat: no-repeat;
   background-position: center;
+  
 }
 
 
@@ -1792,5 +1817,5 @@ body section:nth-child(even){
 
 .footerNotes p{
   color: #5c5c5c;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Thasadith", sans-serif;
 }

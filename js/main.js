@@ -12,6 +12,7 @@ $(document).ready(function(){
         dots: false,
         pagination: false,
         autoWidth: true,
+        autoHeight: true,
         navText: ["<img src='./img/slider/rightarrow.png' />", "<img src='./img/slider/leftarrow.png' />"],
         responsive:{
             0:{
@@ -56,10 +57,15 @@ $(document).ready(function(){
 
 
 
+    if ($(window).scrollTop() >= -10) {
+        $('.navbar').addClass('active');
+    } else {
+        $('.navbar').removeClass('active');
+    }
 
 
     $(window).on('scroll', function () {
-        if ( $(window).scrollTop() > 10 ) {
+        if ( $(window).scrollTop() >= -10 ) {
              $('.navbar').addClass('active');
         } else {
              $('.navbar').removeClass('active');
