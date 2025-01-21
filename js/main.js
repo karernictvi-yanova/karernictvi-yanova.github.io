@@ -93,6 +93,19 @@ $(document).ready(function(){
     $('.js-scroll-trigger').click(function() {
         $('.navbar-collapse').collapse('hide');
     });
+
+    // closes the nav bar when we scroll
+    $(window).on('scroll', function () {
+        
+        $('.navbar-collapse').collapse('hide');
+    });
+
+    
+    // closes the nav bar when we click
+    $(window).on('click', function () {
+        
+        $('.navbar-collapse').collapse('hide');
+    });
     
     // Activate scrollspy to add active class to navbar items on scroll
     $('body').scrollspy({
