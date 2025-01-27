@@ -197,10 +197,12 @@ iframe {
 
 
 .slide-content h2{
-    font-family: "Thasadith", sans-serif;
+    font-family: "Marck Script", serif;
+    font-weight: 400;
+    font-style: normal;
     margin-bottom: 20px;
-    font-size: 52px;
-    text-shadow: 0px 0px 11px gray;
+    font-size: 80px;
+    text-shadow: 0px 0px 8px #121212;
 }
 
 
