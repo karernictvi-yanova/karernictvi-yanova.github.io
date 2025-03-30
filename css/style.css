@@ -1629,8 +1629,7 @@ opacity: .1;
   justify-content: center;
 }
 
-.owl-carousel-gallery .owl-theme img {
-  border: 5px solid var(--main-color);
+.owl-theme img {
   max-height: 50vh;
   max-width: 100%;
   width: auto;
