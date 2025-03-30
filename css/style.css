@@ -1621,6 +1621,33 @@ opacity: .1;
 */
 
 
+/* safari stretch fix*/
+.owl-carousel-gallery .owl-item > div {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.owl-carousel-gallery .owl-theme img {
+  border: 5px solid var(--main-color);
+  max-height: 50vh;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Safari specific override */
+@media not all and (min-resolution:.001dpcm) { 
+  @supports (-webkit-appearance:none) {
+    .owl-carousel-gallery .owl-theme img {
+      max-height: none;
+      height: 50vh;
+    }
+  }
+}
+
 
 
 
