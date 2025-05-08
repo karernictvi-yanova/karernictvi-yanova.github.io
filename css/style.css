@@ -1896,3 +1896,11 @@ body section:nth-child(even){
   }
   
 } */
+
+* {
+  font-weight: normal;
+}
+
+strong {
+  font-weight: bold;
+}
