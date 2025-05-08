@@ -1880,7 +1880,7 @@ body section:nth-child(even){
     transform: translate(-50%, -50%);
 }
 
-
+/* 
 @media (max-width: 750px) {
   
 .background-video {
@@ -1895,4 +1895,4 @@ body section:nth-child(even){
     display: none;
   }
   
-}
+} */
