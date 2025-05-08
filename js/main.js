@@ -54,6 +54,7 @@ $(document).ready(function(){
   });
 
 
+//   $('.background-video')[0].playbackRate = 0;
 
 
 
