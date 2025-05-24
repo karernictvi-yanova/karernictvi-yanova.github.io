@@ -1903,6 +1903,8 @@ body section:nth-child(even){
 
 strong {
   font-weight: bold;
+  font-family: "lora", serif;
+
 }
 
 .owl-carousel .owl-item img {
