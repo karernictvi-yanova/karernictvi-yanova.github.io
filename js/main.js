@@ -31,6 +31,52 @@ $(document).ready(function(){
   });
 
 
+// const swiper = new Swiper('.swiper', {
+//   // Optional parameters
+//   direction: 'vertical',
+//   loop: true,
+
+//   // If we need pagination
+//   pagination: {
+//     el: '.swiper-pagination',
+//   },
+
+//   // Navigation arrows
+//   navigation: {
+//     nextEl: '.swiper-button-next',
+//     prevEl: '.swiper-button-prev',
+//   },
+
+//   // And if we need scrollbar
+//   scrollbar: {
+//     el: '.swiper-scrollbar',
+//   },
+// });
+
+const swiper = new Swiper('.swiper', {
+  direction: 'horizontal', // set horizontal scroll
+  loop: true,
+  slidesPerView: 'auto',
+  centeredSlides: true,
+  spaceBetween: 10,
+  grabCursor: true,
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+    
+  },
+});
+
+  document.addEventListener("DOMContentLoaded", function() {
+    const video = document.querySelector(".background-video");
+    if (video) {
+      video.muted = true; // required for autoplay on mobile
+      video.play().catch(function(error) {
+        console.warn("Autoplay was prevented:", error);
+      });
+    }
+  });
+
 
   $(document).ready(function(){
     $('.owl-carousel-reviews').owlCarousel({
