@@ -1983,6 +1983,5 @@ strong {
 
 
 .slider-content-area {
-  position: relative; /* or absolute */
   z-index: 9999;
 }
