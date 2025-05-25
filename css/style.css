@@ -1944,3 +1944,12 @@ strong {
 .swiper-slide-active {
   opacity: 1;
 }
+
+
+a {
+    font-family: "lora", serif;
+    line-height: 1.7;
+    color: var(--paragraph-color);
+    margin: 0px;
+    font-size: 25px;
+}
