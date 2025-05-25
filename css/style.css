@@ -1946,7 +1946,7 @@ strong {
 }
 
 
-a .contact-number {
+.contact-number {
     font-family: "lora", serif;
     line-height: 1.7;
     color: var(--paragraph-color);
