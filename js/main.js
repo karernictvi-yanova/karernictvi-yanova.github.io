@@ -67,6 +67,23 @@ $(document).ready(function(){
 //   },
 // });
 
+document.addEventListener("DOMContentLoaded", function () {
+    const overlay = document.getElementById("black-overlay");
+    let faded = false;
+
+    function fadeOutOverlay() {
+      if (faded) return;
+      faded = true;
+      overlay.classList.add("fade-out");
+      setTimeout(() => overlay.remove(), 500); // remove from DOM after fade
+    }
+
+    // Fade after page load
+    window.addEventListener("load", fadeOutOverlay);
+
+    // OR timeout fallback (if load is too slow)
+    setTimeout(fadeOutOverlay, 300);
+  });
 
 const swiper = new Swiper('.swiper', {
   direction: 'horizontal',

@@ -1964,3 +1964,25 @@ strong {
   font-size: 48px;
   font-weight: bolder;
 }
+
+#black-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(23, 23, 23);
+  z-index: 9998; /* was 9999 */
+  opacity: 1;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+}
+#black-overlay.fade-out {
+  opacity: 0;
+}
+
+
+.slider-content-area {
+  position: relative; /* or absolute */
+  z-index: 9999;
+}
