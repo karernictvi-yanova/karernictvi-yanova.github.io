@@ -1834,7 +1834,7 @@ li.footer-section a:focus p{
 
 @media (max-width: 750px) {
   .headImage {
-    background-image: url(../img/Gallery/2025/img_012.webp);
+    background-image: url(../img/front_page/DSC07055.jpg);
     height: 100vh; /* Ensures full viewport height */
     background-size: cover; /* Makes sure the image covers the entire area without repeating */
     background-position: center; /* Centers the image */
