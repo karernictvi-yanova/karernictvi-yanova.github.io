@@ -53,17 +53,37 @@ $(document).ready(function(){
 //   },
 // });
 
+// const swiper = new Swiper('.swiper', {
+//   direction: 'horizontal', // set horizontal scroll
+//   loop: true,
+//   slidesPerView: 'auto',
+//   centeredSlides: true,
+//   spaceBetween: 10,
+//   grabCursor: true,
+//   autoplay: {
+//     delay: 5000,
+//     disableOnInteraction: false,
+    
+//   },
+// });
+
+
 const swiper = new Swiper('.swiper', {
-  direction: 'horizontal', // set horizontal scroll
+  direction: 'horizontal',
   loop: true,
   slidesPerView: 'auto',
   centeredSlides: true,
   spaceBetween: 10,
   grabCursor: true,
+  slideToClickedSlide: true,
   autoplay: {
     delay: 5000,
     disableOnInteraction: false,
-    
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+
   },
 });
 

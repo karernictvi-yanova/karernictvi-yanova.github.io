@@ -1953,3 +1953,14 @@ strong {
     margin: 0px;
     font-size: 25px;
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ffffff; /* Or your brand color */
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 48px;
+  font-weight: bolder;
+}
