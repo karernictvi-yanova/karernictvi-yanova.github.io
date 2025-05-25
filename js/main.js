@@ -67,15 +67,19 @@ const swiper = new Swiper('.swiper', {
   },
 });
 
-  document.addEventListener("DOMContentLoaded", function() {
-    const video = document.querySelector(".background-video");
-    if (video) {
-      video.muted = true; // required for autoplay on mobile
-      video.play().catch(function(error) {
-        console.warn("Autoplay was prevented:", error);
-      });
-    }
+
+document.addEventListener('DOMContentLoaded', () => {
+  const video = document.querySelector('.background-video');
+  if (!video) return;
+
+  // Safari may still refuse (low-power mode, user setting …)
+  video.play().catch(() => {
+    // wait for the *first* user interaction and try again
+    const resume = () => { video.play(); window.removeEventListener('touchstart', resume); };
+    window.addEventListener('touchstart', resume, { once: true });
+    window.addEventListener('click',     resume, { once: true });
   });
+});
 
 
   $(document).ready(function(){
