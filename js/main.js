@@ -69,13 +69,16 @@ $(document).ready(function(){
 
 document.addEventListener("DOMContentLoaded", function () {
     const overlay = document.getElementById("black-overlay");
+    const titleOnTop = document.getElementsByClassName("slider-content-area")[0];
     let faded = false;
 
     function fadeOutOverlay() {
       if (faded) return;
       faded = true;
       overlay.classList.add("fade-out");
-      setTimeout(() => overlay.remove(), 500); // remove from DOM after fade
+      titleOnTop.classList.remove("force-top");
+
+      setTimeout(() => {overlay.remove(); }, 500); // remove from DOM after fade
     }
 
     // Fade after page load
